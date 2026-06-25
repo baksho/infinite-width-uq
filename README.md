@@ -145,7 +145,7 @@ Every curve falls below the diagonal once the test set leaves the training suppo
 
 The **deep ensemble** inflates its intervals most when the inputs drift out of support — its members disagree more in extrapolation, which is exactly the behaviour you want. **MC-dropout** barely moves (and was overconfident to begin with). The two GPs change only modestly here, a point discussed below.
 
-### Interpretation (reported honestly)
+### Interpretation
 
 - **In-support, the calibrated NNGP is competitive with a tuned RBF-GP** — near-identical RMSE/NLL/CRPS, both essentially perfectly calibrated (miscalibration area `0.017`), and the **NNGP has the best selective-prediction AURC**, meaning its variance ranks its own errors slightly better than any other model's.
 - **Under covariate shift, every model degrades, but unequally.** The GP-based methods and the deep ensemble keep 95% coverage in the 0.86–0.92 range; **MC-dropout collapses** to 0.34 coverage with an NLL nearly double the next-worst model. This is the clearest result in the project: cheap dropout uncertainty is the least robust to distribution shift.
