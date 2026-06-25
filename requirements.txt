@@ -1,0 +1,13 @@
+# Pinned to a compatible JAX / neural-tangents pair. neural-tangents 0.6.5
+# relies on a JAX internal API removed after 0.4.x, so JAX must stay pinned.
+jax==0.4.28
+jaxlib==0.4.28
+neural-tangents==0.6.5
+scikit-learn>=1.3
+scipy>=1.10
+numpy>=1.24
+pandas>=2.0
+matplotlib>=3.7
+
+# QSAR path only (not needed for the diabetes results):
+#   pip install rdkit
