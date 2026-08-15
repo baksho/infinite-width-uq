@@ -182,8 +182,6 @@ python experiments/run_qsar.py --csv path/to/activities.csv \
 
 ## References
 
-Listed for orientation; verify venues/DOIs against the originals before citing in formal work.
-
 - Neal, R. M. (1996). *Bayesian Learning for Neural Networks.* Springer (Lecture Notes in Statistics 118). — infinite-width single-layer ↔ GP.
 - Lee, J., Bahri, Y., Novak, R., Schoenholz, S. S., Pennington, J., Sohl-Dickstein, J. (2018). *Deep Neural Networks as Gaussian Processes.* ICLR. (arXiv:1711.00165)
 - Novak, R., Xiao, L., Hron, J., Lee, J., Alemi, A. A., Sohl-Dickstein, J., Schoenholz, S. S. (2020). *Neural Tangents: Fast and Easy Infinite Neural Networks in Python.* ICLR. (arXiv:1912.02803) — the library used here.
