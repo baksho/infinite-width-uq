@@ -67,7 +67,7 @@ infinite-width-uq/
 ### Installation
 
 ```bash
-git clone https://github.com/<your-username>/infinite-width-uq.git
+git clone https://github.com/baksho/infinite-width-uq.git
 cd infinite-width-uq
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
